@@ -182,7 +182,7 @@ hr {
 
 /* media query */
 
-@media (max-width: 375px){
+@media (min-width: 100px) and (max-width: 710px){
  
 
     .mid-img{
