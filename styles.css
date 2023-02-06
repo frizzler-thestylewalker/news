@@ -182,66 +182,55 @@ hr {
 
 /* media query */
 
-@media (min-width: 100px) and (max-width: 710px){
+@media (max-width: 530px){
  
 
-    .mid-img{
-        max-width: 20rem ;
-        min-height: 15rem;
-        
-    }
+.mid-img{
+    width: 100%; 
+}
 
-    
-    .mid-heading h1{
-        
-        font-size: 2.5rem;
-        
-    }
+.mid-heading{
+    width: 100%;
+    font-size: xx-large;
+    font-weight: 800;
+}
 
-    .mid-content{
-        position: relative;
-        bottom: 1rem
-    }
+.mid-content{
+    width: 100%;
+    font-size: 15px;
+    padding-bottom: 2rem;
+}
 
-    .btn-1{
-        position: relative;
-        right: 20.2rem;
-        top: 3rem;
-    }
+.btn-rd{
+    position: static;
+    left: 0rem;
+    top: 0rem;
+}
 
-    .col-right{
-        position: relative;
-        top: 3.5rem;
-        left: 0rem;
-        
-    }
-
-   
-
-    .bottom-image{
-       
-        position: relative;
-        top: 5rem;
-    }
-
-    .bottom-content{
-        position: relative;
-        left: 12rem;
-        bottom: 10.5rem;
-    }
-    .row2{
-        position: relative;
-        bottom: 7rem;
-    }
-
-    .row3{
-        position: relative;
-        bottom: 14rem;
-    }
-    
-
+.col-rt{
+    position: relative;
+    right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
     
 }
+
+.bottom-content{
+    left: 12rem ;
+    bottom: 14rem;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.bottom-image{
+    box-sizing: border-box;
+    width: 110%;
+   
+}
+
+}
+
 
 
 
