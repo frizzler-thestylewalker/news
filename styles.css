@@ -185,7 +185,7 @@ hr {
 
 /* media query */
 
-@media (max-width: 1000px) {
+@media (max-width: 1020px) {
 
     .back {
         padding: 0 2rem 0 2rem;
