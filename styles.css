@@ -221,7 +221,7 @@ hr {
         position: relative;
         left: 2rem;
         background-color: #00001A;
-        width: 15rem;
+        width: 20rem;
         height: 35.2rem;
     }
 
@@ -229,8 +229,12 @@ hr {
         position: relative;
         right: 2rem;
         padding-top: 2rem;
-        padding-bottom: 4rem;
+        padding-bottom: 1rem;
 
+    }
+
+    .side{
+        width: 70%;
     }
 
     .bottom-img img {
