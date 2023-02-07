@@ -34,43 +34,46 @@
 
 
         <section id="top">
-            <nav class="navbar navbar-expand-lg ">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <div class="brand-logo">
-                        <a class="navbar-brand" href="#">
-                            <img src="./images/logo.svg" alt="Bootstrap" width="40" height="24">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                    <a class="navbar-brand" href="#">
+                        <img class="top-img" src="./images/logo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item top-item">
+                                    <a class="nav-link top-bar" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item top-item">
+                                    <a class="nav-link top-bar" href="#">New</a>
+                                </li>
+                                <li class="nav-item top-item">
+                                    <a class="nav-link top-bar" href="#">Popular</a>
+                                </li>
+                                <li class="nav-item top-item">
+                                    <a class="nav-link top-bar" href="#">Trending</a>
+                                </li>
+                                <li class="nav-item top-item">
+                                    <a class="nav-link top-bar" href="#">Categories</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-
-                    <div class=" collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="nav justify-content-end me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link tabs" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link tabs" href="#">New</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link tabs" href="#">Popular</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link tabs" href="#">Trending</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link tabs" href="#">Categories</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-
 
             </nav>
+
+
 
         </section>
 
@@ -145,8 +148,8 @@
                             </div>
                             <div class="bottom-content">
                                 <h3>01</h3>
-                                <h5>Reviving Retro PCs</h5> 
-                                 <p> What happens when old PCs are given modern upgrades?
+                                <h5>Reviving Retro PCs</h5>
+                                <p> What happens when old PCs are given modern upgrades?
                                 </p>
                             </div>
 
@@ -161,7 +164,7 @@
                                 <h3>02</h3>
                                 <h5>Top 10 Laptops of 2022</h4>
                                     <p>Our best picks for various needs and budgets.
-                                </p>
+                                    </p>
                             </div>
                         </div>
                     </div>

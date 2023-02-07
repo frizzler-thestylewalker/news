@@ -19,7 +19,15 @@
     padding-bottom: 3rem;
 }
 
-.tabs {
+.top-img{
+    width: 80%;
+}
+
+.top-item{
+    padding-left: 1rem;
+}
+
+.top-bar{
     color: #5D5F79;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
@@ -28,8 +36,7 @@
 }
 
 
-
-.tabs:hover {
+.top-bar:hover{
     color: #F15E50;
 }
 
@@ -176,7 +183,9 @@ hr {
 
 @media (max-width: 1000px){
  
-
+    .top-item{
+        padding-bottom: 1rem;
+    }
 
 .mid-img{
     width: 100%; 
@@ -223,6 +232,8 @@ hr {
 
 .bottom-content{
     width: 190%;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
 }
 
 }
